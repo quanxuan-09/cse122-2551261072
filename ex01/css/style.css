@@ -1,0 +1,54 @@
+
+:root {
+    --nen: #FFFDE7;
+    --vien: #9E9E9E;
+    --do: #D40000;
+    --hong: #FFD9E6;
+    --xanh: #0033CC;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.khung-tho {
+    width: 640px;
+    box-sizing: border-box;
+    padding: 24px;
+    background-color: var(--nen);
+    border: 1px solid var(--vien);
+    text-align: center;
+}
+
+h1 {
+    color: var(--do);
+    background-color: var(--hong);
+    font-size: 26px;
+    padding: 6px 0;
+    margin: 0 0 20px;
+}
+
+p {
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.xanh {
+    color: var(--xanh);
+}
+
+.do {
+    color: var(--do);
+}
+
+hr {
+    width: 55%;
+    border: none;
+    border-top: 1px solid var(--xanh);
+}
